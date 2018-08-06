@@ -2,18 +2,18 @@ print('try to import os, sys')
 import os
 import sys
 
+from flask import Flask
+app = Flask(__name__)
 # --------------------------------------------------------- #
+
+@app.route('/')
 
 try:
   print('try to import pandas')
   import pandas as pd
-  from flask import Flask
-  app = Flask(__name__)
 
-except error:
+except:
   print(error)
-
-@app.route('/')
 
 def hello_world():
   
