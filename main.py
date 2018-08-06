@@ -1,6 +1,7 @@
 
 import os
 import sys
+import numpy as np
 
 from flask import Flask
 app = Flask(__name__)
@@ -15,6 +16,8 @@ def hello_world():
   #d = {'col1': [1, 2], 'col2': [3, 4]}
   #df = pd.DataFrame(data=d)
   #df
+  a = np.array([1, 2, 3])
+  print(a)
   # ------------------------------------------------------- #
   
   return 'Hey its Python Flask application!'
