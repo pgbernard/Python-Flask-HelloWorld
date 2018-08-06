@@ -14,7 +14,7 @@ def test():
     print(df)
     # ------------------------------------------------------- #
 
-    return ('Python Flask works.')
+    return print(df)
 
 if __name__ == '__main__':
     app.run()
