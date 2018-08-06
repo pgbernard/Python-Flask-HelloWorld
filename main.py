@@ -15,7 +15,7 @@ def test():
         df = pd.DataFrame(data=d)
         x = len(np.array([2,3,1,0]))
         
-        var = 'numpy is working'+x
+        var = 'numpy is working'
     except:
         var = 'error'
     #print(df)
