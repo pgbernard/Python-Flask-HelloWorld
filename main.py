@@ -10,13 +10,10 @@ app = Flask(__name__)
 
 def test():
     # --------------test for checking Pandas ---------------- # 
-    
     d = {'col1': [1, 2], 'col2': [3, 5]}
     df = pd.DataFrame(data=d)
     #x = len(np.array([2,3,1,0]))
-    x = 'numpy ignored'
-    return x
-
+    return 'numpy ignored'
 
 if __name__ == '__main__':
     app.run()
