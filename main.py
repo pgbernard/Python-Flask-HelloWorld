@@ -15,7 +15,7 @@ def test():
     df = pd.DataFrame(data=d)
     #x = len(np.array([2,3,1,0]))
     x = 'numpy ignored'
-    print(x)
+    return x
 
 
 if __name__ == '__main__':
