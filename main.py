@@ -35,7 +35,8 @@ def main():
     #end_dt = date(year, month, day)
     #start_dt = date(year_p, month_p, day_p)
 
-    print(n_days / top)
+    #print(n_days / top)
+    return 'ok'
 
 #main()
 
