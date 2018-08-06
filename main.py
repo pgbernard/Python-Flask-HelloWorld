@@ -13,7 +13,7 @@ def test():
     d = {'col1': [1, 2], 'col2': [3, 5]}
     df = pd.DataFrame(data=d)
     #x = len(np.array([2,3,1,0]))
-    return 'numpy ignored'
+    return len(np.array([2,3,1,0]))
 
 if __name__ == '__main__':
     app.run()
