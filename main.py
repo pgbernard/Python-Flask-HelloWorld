@@ -10,8 +10,8 @@ app = Flask(__name__)
 @app.route('/')
 
 def test():
-    np.array([2,3,1,0])
-    return 'np array used'
+    arr = np.array([2,3,1,0])
+    return 'np array assigned to arr'
     #return len(np.array([2,3,1,0]))
     #d = {'col1': [1, 2], 'col2': [3, 5]}
     #df = pd.DataFrame(data=d)
