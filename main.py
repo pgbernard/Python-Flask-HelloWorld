@@ -12,7 +12,7 @@ def test():
     try:
         d = {'col1': [1, 2], 'col2': [3, 5]}
         df = pd.DataFrame(data=d)
-        var = len(df)
+        var = 'pandas is working'
     except:
         var = 'error'
     #print(df)
