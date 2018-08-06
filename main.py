@@ -1,14 +1,14 @@
 import pandas as pd
 import numpy as np
 #import json
-import datetime
-import time
+#import datetime
+#import time
 #import math
                                                                                                             
 #from sklearn.preprocessing import MinMaxScaler
 #from sklearn.preprocessing import minmax_scale
 #from sklearn import preprocessing
-from datetime import timedelta, date
+#from datetime import timedelta, date
 
 #from flask import Flask
 #app = Flask(__name__)
@@ -26,16 +26,16 @@ def main():
 
     # Get the START and END date for INSIGHTS DATA over 'n_days' ------------- # 
 
-    now = datetime.datetime.now()
+    #now = datetime.datetime.now()
 
-    year, month, day = now.year, now.month, now.day
-    period = now - datetime.timedelta(days = n_days)
-    year_p, month_p, day_p = period.year, period.month, period.day
+    #year, month, day = now.year, now.month, now.day
+    #period = now - datetime.timedelta(days = n_days)
+    #year_p, month_p, day_p = period.year, period.month, period.day
 
-    end_dt = date(year, month, day)
-    start_dt = date(year_p, month_p, day_p)
+    #end_dt = date(year, month, day)
+    #start_dt = date(year_p, month_p, day_p)
 
-    print(end_dt)
+    print(n_days / top)
 
 main()
 
