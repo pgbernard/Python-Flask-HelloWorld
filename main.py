@@ -8,13 +8,7 @@ from flask import Flask
 app = Flask(__name__)
 
 def main():
-    HOST = 'https://dexter.azurewebsites.net' # os.environ.get('SERVER_HOST', 'localhost')
-    try:
-        PORT = 80 # int(os.environ.get('SERVER_PORT', 80))
-    except ValueError:
-        PORT = 80
-    app.run(HOST, PORT, debug=DexterConfig.DXTR_MODE)
-    
+    return 'ok'
+
 if __name__ == '__main__':
     main()
-
