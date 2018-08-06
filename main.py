@@ -10,7 +10,8 @@ app = Flask(__name__)
 @app.route('/')
 
 def test():
-    return len(np.array([2,3,1,0]))
+    return 'RESCUE ME'
+    #return len(np.array([2,3,1,0]))
     #d = {'col1': [1, 2], 'col2': [3, 5]}
     #df = pd.DataFrame(data=d)
     #return 'hello?'
