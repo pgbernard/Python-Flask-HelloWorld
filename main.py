@@ -1,8 +1,5 @@
 import os
 import sys
-import site
-site.getsitepackages()
-['D:\home\python364x64\Lib\site-packages', 'D:\home\python364x64\Lib\site-packages']
 
 import pandas as pd
 import numpy as np
@@ -18,6 +15,7 @@ def hello_world():
   d = {'col1': [1, 2], 'col2': [3, 4]}
   df = pd.DataFrame(data=d)
   df
+  # ------------------------------------------------------- #
   
   return 'Hey its Python Flask application!'
 
