@@ -1,6 +1,9 @@
 
 import os
 import sys
+
+sys.path.append("D:\home\python364x64\Lib\site-packages")
+
 import numpy as np
 
 from flask import Flask
