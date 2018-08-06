@@ -1,11 +1,12 @@
-import os
-import sys
-
-import pandas as pd
-import numpy as np
-
 from flask import Flask
 app = Flask(__name__)
+
+# --------------------------------------------------------- #
+
+import os
+import sys
+import pandas as pd
+
 
 @app.route('/')
 
