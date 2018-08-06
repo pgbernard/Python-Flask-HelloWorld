@@ -13,8 +13,8 @@ def test():
     df = pd.DataFrame(data=d)
     #print(df)
     # ------------------------------------------------------- #
-    print(df)
-    return('ok')
+    var = len(df)
+    return var
 
 if __name__ == '__main__':
     app.run()
