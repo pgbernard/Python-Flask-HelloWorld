@@ -16,7 +16,7 @@ app = Flask(__name__)
 @app.route('/')
 
 def main():
-    return 'ok 2'
+    return 'ok 3'
 
 def test():
     # Period for retrieving historical data = N previous days from today
