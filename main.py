@@ -1,9 +1,11 @@
+print('try to import os, sys')
 import os
 import sys
 
 # --------------------------------------------------------- #
 
 try:
+  print('try to import pandas')
   import pandas as pd
   from flask import Flask
   app = Flask(__name__)
