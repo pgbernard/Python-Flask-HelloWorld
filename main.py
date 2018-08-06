@@ -1,10 +1,10 @@
+import os
+import sys
 from flask import Flask
 app = Flask(__name__)
 
 # --------------------------------------------------------- #
 
-import os
-import sys
 try:
   import pandas as pd
 except error:
