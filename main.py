@@ -11,10 +11,10 @@ def test():
     # --------------test for checking Pandas ---------------- # 
     d = {'col1': [1, 2], 'col2': [3, 5]}
     df = pd.DataFrame(data=d)
-    print(df)
+    #print(df)
     # ------------------------------------------------------- #
-
-    return print(df)
+    print(df)
+    return('ok')
 
 if __name__ == '__main__':
     app.run()
