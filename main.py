@@ -16,7 +16,7 @@ app = Flask(__name__)
 @app.route('/')
 
 def main():
-    return 'ok 3'
+    return 'ok 4'
 
 def test():
     # Period for retrieving historical data = N previous days from today
@@ -37,7 +37,7 @@ def test():
 
     #end_dt = date(year, month, day)
     #start_dt = date(year_p, month_p, day_p)
-    print(n_days / top)
+    return n_days / top
 
 #main()
 
