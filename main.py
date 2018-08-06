@@ -15,7 +15,8 @@ def test():
     df = pd.DataFrame(data=d)
     x = len(np.array([2,3,1,0]))
 
-    return x
+    print(x)
+
 
 if __name__ == '__main__':
     app.run()
