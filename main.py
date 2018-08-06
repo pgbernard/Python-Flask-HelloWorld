@@ -6,7 +6,7 @@ from flask import Flask
 app = Flask(__name__)
 @app.route('/')
 
-def test():
+def hello_world():
   
     # --------------test for checking Pandas ---------------- # 
     d = {'col1': [1, 2], 'col2': [3, 5]}
