@@ -5,8 +5,10 @@ app = Flask(__name__)
 
 import os
 import sys
-import pandas as pd
-
+try:
+  import pandas as pd
+except error:
+  print(error)
 
 @app.route('/')
 
