@@ -1,12 +1,13 @@
 import os
 import sys
-from flask import Flask
-app = Flask(__name__)
 
 # --------------------------------------------------------- #
 
 try:
   import pandas as pd
+  from flask import Flask
+  app = Flask(__name__)
+
 except error:
   print(error)
 
