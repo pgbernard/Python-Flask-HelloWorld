@@ -16,6 +16,7 @@ app = Flask(__name__)
 @app.route('/')
 
 def main():
+    print(test()) 
     return 'ok 4'
 
 def test():
@@ -41,6 +42,5 @@ def test():
 
 #main()
 
-if __name__ == '__main__':
-    test()  
+if __name__ == '__main__': 
     main()
