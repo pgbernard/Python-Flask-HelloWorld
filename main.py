@@ -10,10 +10,10 @@ from sklearn.preprocessing import minmax_scale
 from sklearn import preprocessing
 from datetime import timedelta, date
 
-from flask import Flask
-app = Flask(__name__)
+#from flask import Flask
+#app = Flask(__name__)
 
-@app.route('/')
+#@app.route('/')
 
 def main():
     # Period for retrieving historical data = N previous days from today
@@ -37,5 +37,6 @@ def main():
 
     return now
 
-if __name__ == '__main__':
-    main()
+main()
+#if __name__ == '__main__':
+#    main()
