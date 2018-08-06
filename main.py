@@ -8,12 +8,11 @@ app = Flask(__name__)
 @app.route('/')
 
 def test():
-  
     # --------------test for checking Pandas ---------------- # 
     try:
         d = {'col1': [1, 2], 'col2': [3, 5]}
         df = pd.DataFrame(data=d)
-        var = 'ok'
+        var = len(df)
     except:
         var = 'error'
     #print(df)
