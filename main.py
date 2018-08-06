@@ -12,7 +12,8 @@ app = Flask(__name__)
 def test():
     arr = np.array([2,3,1,0])
     arrLen = len(arr)
-    return 'len function used'
+    return arrLen
+    #return 'len function used'
     #return len(np.array([2,3,1,0]))
     #d = {'col1': [1, 2], 'col2': [3, 5]}
     #df = pd.DataFrame(data=d)
