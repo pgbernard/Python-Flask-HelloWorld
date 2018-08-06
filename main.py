@@ -5,9 +5,9 @@ import datetime
 import time
 import math
                                                                                                             
-from sklearn.preprocessing import MinMaxScaler
-from sklearn.preprocessing import minmax_scale
-from sklearn import preprocessing
+#from sklearn.preprocessing import MinMaxScaler
+#from sklearn.preprocessing import minmax_scale
+#from sklearn import preprocessing
 from datetime import timedelta, date
 
 #from flask import Flask
@@ -35,7 +35,7 @@ def main():
     end_dt = date(year, month, day)
     start_dt = date(year_p, month_p, day_p)
 
-    return now
+    print(end_dt)
 
 main()
 #if __name__ == '__main__':
