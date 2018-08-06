@@ -14,12 +14,13 @@ def test():
         d = {'col1': [1, 2], 'col2': [3, 5]}
         df = pd.DataFrame(data=d)
         x = len(np.array([2,3,1,0]))
-        #var = 'pandas is working'
+        
+        var = 'numpy is working'+x
     except:
         var = 'error'
     #print(df)
     # ------------------------------------------------------- #
-    return x
+    return var
 
 if __name__ == '__main__':
     app.run()
