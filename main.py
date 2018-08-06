@@ -2,7 +2,8 @@
 import os
 import sys
 
-sys.path.append("D:\home\python364x64\Lib\site-packages")
+sitepackage = "D:\home\site\wwwroot\env\Lib\site-packages"
+sys.path.append(sitepackage)
 
 import numpy as np
 
