@@ -12,7 +12,7 @@ app = Flask(__name__)
 def test():
     arr = np.array([2,3,1,0])
     arrLen = len(arr)
-    return '1. np array create \n 2. len function used \n 3. arrayLen variable introduced'
+    return '1. np array create 2. len function used 3. arrayLen variable introduced || Something goes wrong when returning the arrayLen which may not necessarily be important'
     #return 'len function used'
     #return len(np.array([2,3,1,0]))
     #d = {'col1': [1, 2], 'col2': [3, 5]}
