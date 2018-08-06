@@ -10,10 +10,10 @@ import numpy as np
 #from sklearn import preprocessing
 #from datetime import timedelta, date
 
-#from flask import Flask
-#app = Flask(__name__)
+from flask import Flask
+app = Flask(__name__)
 
-#@app.route('/')
+@app.route('/')
 
 def main():
     # Period for retrieving historical data = N previous days from today
@@ -37,7 +37,7 @@ def main():
 
     print(n_days / top)
 
-main()
+#main()
 
-#if __name__ == '__main__':
-#    main()
+if __name__ == '__main__':
+    main()
