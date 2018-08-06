@@ -7,12 +7,14 @@ import numpy as np
 from flask import Flask
 app = Flask(__name__)
 
-@app.route('/')
-
-def test():
-    arr = np.array([2,3,1,0])
-    arrLen = len(arr)
-    return 'It is all good with using numpy'
-
+def main():
+    HOST = 'https://facebook-dexter-api-lnx.azurewebsites.net' # os.environ.get('SERVER_HOST', 'localhost')
+    try:
+        PORT = 80 # int(os.environ.get('SERVER_PORT', 80))
+    except ValueError:
+        PORT = 80
+    app.run(HOST, PORT, debug=DexterConfig.DXTR_MODE)
+    
 if __name__ == '__main__':
-    app.run()
+    main()
+
