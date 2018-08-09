@@ -1,4 +1,4 @@
-#!/home/python364x64 python
+#!D:\home\site\wwwroot python36
 from flask import Flask  
 app = Flask(__name__)
 
