@@ -12,7 +12,7 @@ app = Flask(__name__)
 @app.route("/")
 
 def main():
-	age = {"Sam": 20, "Ken": 30, "Grace": 23, "Peter": 29}
+	age = {"Variable": 10, "Variable2": 25, "Variable3": 33, "Variable4": 52}
 	return render_template("index.html", ages = age)
 
 if __name__ == "__main__":
