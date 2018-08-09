@@ -4,6 +4,8 @@ from flask import render_template
 
 import pandas as pd
 import numpy as np
+import scipy
+import scikit-learn
 
 app = Flask(__name__)
 
