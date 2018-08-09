@@ -1,4 +1,6 @@
-from flask import Flask, render_template
+from flask import Flask
+from flask import request
+from flask import render_template
 
 import pandas as pd
 import numpy as np
