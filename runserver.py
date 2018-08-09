@@ -2,18 +2,19 @@ from flask import Flask
 from flask import request
 from flask import render_template
 
-import pandas as pd
-import numpy as np
-import scipy
-import sklearn
+import os 
+from dexterai import app, db
 
-app = Flask(__name__)
-
-@app.route("/")
+from config import DexterConfig
 
 def main():
-	age = {"Variable": 10, "Variable2": 25, "Variable3": 33, "Variable4": 52}
-	return render_template("index.html", ages = age)
+    HOST = 'https://dexter.azurewebsites.net' # os.environ.get('SERVER_HOST', 'localhost')
+    try:
+        PORT = 80 # int(os.environ.get('SERVER_PORT', 80))
+    except ValueError:
+        PORT = 80
 
-if __name__ == "__main__":
-    app.run()
+    app.run(HOST, PORT, debug=DexterConfig.DXTR_MODE)
+ 
+if __name__ == '__main__':
+    main()
