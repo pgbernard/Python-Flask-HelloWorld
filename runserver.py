@@ -5,7 +5,7 @@ from flask import render_template
 import pandas as pd
 import numpy as np
 import scipy
-import scikit-learn
+import sklearn
 
 app = Flask(__name__)
 
