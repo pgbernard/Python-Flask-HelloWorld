@@ -7,7 +7,7 @@ app = Flask(__name__)
 
 @app.route("/")
 
-def index():
+def main():
     age = {"Sam": 20, "Ken": 30, "Grace": 23, "Peter": 29}
     return render_template("index.html", ages=age)
 
